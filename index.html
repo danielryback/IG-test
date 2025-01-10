@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Redirect</title>
+    <script>
+        // List of URLs
+        const urls = [
+            "https://www.instagram.com/p/Cbuj5xPATv6/",
+            "https://www.instagram.com/p/Cbsg__QqSD4/",
+            "https://www.instagram.com/p/CacFqD6AGDB/",
+            "https://www.instagram.com/p/CdmBDaWlreR/",
+            "https://www.instagram.com/p/CdvUkV5AJW7/",
+            "https://www.instagram.com/p/CfIbNDbshk2/"
+        ];
+
+        // Redirect to a random URL
+        window.location.href = urls[Math.floor(Math.random() * urls.length)];
+    </script>
+</head>
+<body>
+    <p>Redirecting...</p>
+</body>
+</html>
